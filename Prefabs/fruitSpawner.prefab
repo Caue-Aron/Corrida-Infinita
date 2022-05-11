@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9008824909937301771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3554238621626537415}
+  - component: {fileID: 832507193094196038}
+  m_Layer: 0
+  m_Name: fruitSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3554238621626537415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9008824909937301771}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.63, y: -1.27, z: 9.398774}
+  m_LocalScale: {x: 1, y: 1, z: -1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832507193094196038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9008824909937301771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d514209315549244c84f46b5ddca1b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vetor:
+  - {fileID: 7579880880792161167, guid: 1c76c26c5a3b6c24695e53122d18aa9e, type: 3}
+  - {fileID: 6337428448629033406, guid: b8384b08933421549a25e32561b963f6, type: 3}
+  - {fileID: 6148931745920785765, guid: 2669c13a88bf2ba44ae491afb7fde3ae, type: 3}
+  - {fileID: 1164479532711036875, guid: 4956620bf42825e4fa19f578ef901086, type: 3}
+  - {fileID: 5720240317081485006, guid: 50adca1c0b098da48a2c4a34e54216b0, type: 3}
+  Spmin: 0.5
+  Spmax: 1
+  maxY: 13.5
+  minY: 7
